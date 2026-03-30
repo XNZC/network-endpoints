@@ -1,0 +1,6 @@
+[
+    { "/bridge_endpoint/{service_group}/{sid}": "services/bridge_endpoint" },
+    { "/dhcp_leases/{service_group}/{sid}": "services/dhcp_leases" },
+    { "/route_endpoint/{service_group}/{sid}": "services/route_endpoint" },
+    { "/bridge_config/{service_group}/{sid}": "services/bridge_config" }
+]

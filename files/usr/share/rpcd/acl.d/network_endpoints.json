@@ -1,0 +1,21 @@
+{
+  "services/network_endpoints": {
+    "description": "network endpoints",
+    "read": {
+      "api": [
+        "/route_endpoint/*",
+        "/dhcp_leases/*",
+        "/bridge_endpoint/*",
+        "/bridge_config/*"
+      ]
+    },
+    "write": {
+      "api": [
+        "/route_endpoint/*",
+        "/dhcp_leases/*",
+        "/bridge_endpoint/*",
+        "/bridge_config/*"
+      ]
+    }
+  }
+}
